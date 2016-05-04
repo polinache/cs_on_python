@@ -91,7 +91,7 @@ def find_way(G, From, To):
     return path[::-1]
     
 
-gr = read_G("input.txt")
+gr = read_G("input_graphs.txt")
 
 """
 show(gr, ['1', '3', '5'])
